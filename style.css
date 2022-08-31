@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.add {
+    background-color: rgb(255, 255, 255);
+    padding-top: 0.9rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 0.9rem;
+    border-radius: 0.75rem;
+    font-weight: 600;
+}
+
+.color-white {
+    color: white;
+}
+
+.color-black {
+    color: rgb(0, 0, 0);
+}
+
+.border-white {
+
+    color: white;
+    transition: all 0.3s linear;
+}
+
+.border-white:hover {
+
+    color: rgb(3, 3, 3);
+    background-color: rgb(255, 255, 255);
+}
+
+.herobtn {
+    color: rgb(1, 1, 1);
+    transition: all 0.3s linear;
+}
+
+.herobtn:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(22, 22, 151);
+}
+.img-rounded{
+    border-top-left-radius: 20px;
+
+}
+
+/* Another Changes are done by kunal chouhan  */

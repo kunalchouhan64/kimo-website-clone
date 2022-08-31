@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <script src="index.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>KIMO: Clone Website</title>
+</head>
+
+<body>
+    <!-- 🔓Our Transparrent Navabr Starts Here🔓  -->
+    <nav class="Navbar flex justify-between pt-6">
+
+        <div class="logo text-blue-700 text-xl mx-28 font-bold">
+            <a href="/index.html"><img src="/Images/kimo logo.png" class="h-10 mt-3" alt=""></a>
+        </div>
+
+
+        <div class="menu text-lg mr-20">
+            <ul class="flex space-x-7 pt-4 ">
+                <li><a href="/Pages/Individuals.html" class="hover:text-blue-700">Indiidual</a></li>
+                <li><a href="/Pages/company.html" class="hover:text-blue-700">Companies</a></li>
+                <li><a href="/Pages/pricing.html" class="hover:text-blue-700">Pricing</a></li>
+                <li><a href="#" class="hover:text-blue-700">About</a></li>
+                <li><a href="#" class="hover:text-blue-700">Contact</a></li>
+
+            </ul>
+        </div>
+        <div class="buttons space-x-4 mr-24 mt-3">
+            <button class="border-2 border-blue-600 py-[0.60rem] px-4 rounded-xl">Log In</button>
+            <button
+                class="py-3 px-8 rounded-xl bg-blue-700 hover:bg-blue-900 delay-100 ease-in-out text-white font-semibold">Register</button>
+        </div>
+
+
+    </nav>
+    <!-- 🔒Our Navbar Ended Here🔒  -->
+
+    <!-- 🔓Hero Section Start Here🔓  -->
+    <section class="hero h-[60vh] mt-4 bg-gradient-to-r from-purple-500 to-blue-100">
+
+        <h1 class="text-center text-5xl font-bold pt-16">Pick a plan that's right for you</h1>
+
+        <div class="wrapper-div flex justify-center gap-4 pt-28 bg-green500">
+
+            <!-- first price div -01  -->
+            <div class="first w-[23rem] h-[44rem] bg-white rounded-xl pt-10 shadow-2xl shadow-purple-500">
+                <h2 class="font-bold text-center text-[2.1rem]">Free Trial</h2>
+                <p class="text-center pt-2 text-lg">7 Day Free Access</p>
+                <p class="text-5xl font-bold text-center pt-4">$0</p>
+                <button
+                    class="py-4 px-24 bg-blue-600 font-semibold rounded-lg herobtn text-white ml-5 mt-16 text-lg">Get
+                    Started Now</button>
+                <div class="text-plan mt-10">
+                    <p class="font-semibold pl-4 text-lg">This Plan Includes:</p>
+                    <div class="space-y-4 mt-4 pl-8 text-lg">
+                        <div class="flex space-x-2">
+                            <img src="/Images/rightarrow.svg" alt="">
+                            <p>7 Days Free Access</p>
+                        </div>
+                        <div class="flex space-x-2">
+                            <img src="/Images/rightarrow.svg" alt="">
+                            <p>Access to all features</p>
+                        </div>
+                        <div class="flex space-x-2">
+                            <img src="/Images/rightarrow.svg" alt="">
+                            <p>No credit card needed</p>
+                        </div>
+                        <div class="flex space-x-2">
+                            <img src="/Images/rightarrow.svg" alt="">
+                            <p>Content preferences</p>
+                        </div>
+                        <div class="flex space-x-2">
+                            <img src="/Images/rightarrow.svg" alt="">
+                            <p>Web and mobile apps</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- second price div -02  -->
+            <div class="first w-[23rem] h-[44rem] bg-white rounded-xl pt-10 shadow-2xl shadow-blue-500">
+                <h2 class="font-bold text-center  text-[2.1rem]">Individual</h2>
+                <p class="text-center pt-2 text-lg">Unlimited Access</p>
+                <p class="text-5xl font-bold text-center pt-4">$9.99</p>
+                <button
+                    class="py-4 px-24 bg-blue-600 font-semibold rounded-lg herobtn text-white ml-5 mt-16 text-lg">Get
+                    Started Now</button>
+                <div class="text-plan mt-10">
+                    <p class="font-semibold pl-4 text-lg">This Plan Includes:</p>
+                    <div class="space-y-4 mt-4 pl-8 text-lg">
+                        <div class="flex space-x-2">
+                            <img src="/Images/rightarrow.svg" alt="">
+                            <p>Unlimited content</p>
+                        </div>
+                        <div class="flex space-x-2">
+                            <img src="/Images/rightarrow.svg" alt="">
+                            <p>Recommended Content</p>
+                        </div>
+                        <div class="flex space-x-2">
+                            <img src="/Images/rightarrow.svg" alt="">
+                            <p>Web and mobile apps</p>
+                        </div>
+                        <div class="flex space-x-2">
+                            <img src="/Images/rightarrow.svg" alt="">
+                            <p>Free expert webinars</p>
+                        </div>
+                        <div class="flex space-x-2">
+                            <img src="/Images/rightarrow.svg" alt="">
+                            <p>Save favourite content</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- third price div -03  -->
+            <div class="first w-[23rem] h-[44rem] bg-white rounded-xl pt-10 shadow-2xl shadow-yellow-400">
+                <h2 class="font-bold text-center  text-[2.1rem]">Enterprise</h2>
+                <p class="text-center pt-2 text-lg">For companies</p>
+                <p class="text-5xl font-bold text-center pt-4">Custom</p>
+                <button
+                    class="py-4 px-28 bg-blue-600 font-semibold rounded-lg herobtn text-white ml-6 mt-16 text-lg">Contact
+                    Us</button>
+                <div class="text-plan mt-10">
+                    <p class="font-semibold pl-4 text-lg">This Plan Includes:</p>
+                    <div class="space-y-4 mt-4 pl-8 text-lg">
+                        <div class="flex space-x-2">
+                            <img src="/Images/rightarrow.svg" alt="">
+                            <p>Scale to team size</p>
+                        </div>
+                        <div class="flex space-x-2">
+                            <img src="/Images/rightarrow.svg" alt="">
+                            <p>Access all features</p>
+                        </div>
+                        <div class="flex space-x-2">
+                            <img src="/Images/rightarrow.svg" alt="">
+                            <p>Onboarding support</p>
+                        </div>
+                        <div class="flex space-x-2">
+                            <img src="/Images/rightarrow.svg" alt="">
+                            <p>Content integrations</p>
+                        </div>
+                        <div class="flex space-x-2">
+                            <img src="/Images/rightarrow.svg" alt="">
+                            <p>Request Exclusive webinars</p>
+                        </div>
+                        <div class="flex space-x-2">
+                            <img src="/Images/rightarrow.svg" alt="">
+                            <p>Team usage analytics</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- 🔒Our Hero Ended Here🔒  -->
+
+
+
+    <section class="h-[90vh] bg-slate-200">
+
+    </section>
+
+    <!-- Plan Comparisiona nd pricing Table here  -->
+    <section class="pricing-table h-[130vh]">
+        <div class="div flex justify-end gap-[5.5rem] pt-32 pr-72">
+            <div>
+                <h2 class="text-4xl font-semibold">Free Trial</h2>
+                <p class="text-lg pt-2 opacity-80">7 Day Access</p>
+            </div>
+            <div>
+                <h2 class="text-4xl font-semibold">Individual</h2>
+                <p class="text-lg pt-2 opacity-80">Unlimited Access</p>
+            </div>
+            <div>
+                <h2 class="text-4xl font-semibold">Enterprise</h2>
+                <p class="text-lg pt-2 opacity-80">Perfect for Teams</p>
+            </div>
+        </div>
+        <div>
+            <h2 class="text-[1.7rem] font-semibold pt-12 pl-36 pb-8">Plan Features</h2>
+        </div>
+
+        <!-- Table Here started  -->
+        <div class="mx-32 mt-7 h-[90vh]">
+
+            <div class="div1 bg-slate-200 py-4 flex justify-between pr-44 rounded-lg">
+                <div class="bold">
+                    <h3 class="text-lg pl-5 font-semibold">Number of Users</h3>
+                </div>
+                <div class="datadiv grid grid-cols-3 gap-36 space-x-5 text-lg">
+                    <p>1</p>
+                    <p>1</p>
+                    <p>Unlimited</p>
+                </div>
+            </div>
+
+            <div class="div2 bg-white py-4 flex justify-between pr-44 rounded-lg">
+                <div class="bold">
+                    <h3 class="text-lg pl-5 font-semibold">Number of Users</h3>
+                </div>
+                <div class="datadiv grid grid-cols-3 gap-[7.1rem] space-x-3 text-lg">
+                    <p>7 Days</p>
+                    <p>Billed Monthly</p>
+                    <p>Billed Monthly</p>
+                </div>
+            </div>
+
+            <div class="div3 bg-slate-200 py-4 flex justify-between pr-44 rounded-lg">
+                <div class="bold">
+                    <h3 class="text-lg pl-5 font-semibold">Number of Users</h3>
+                </div>
+                <div class="datadiv grid grid-cols-3 gap-[9.1rem] space-x-10 text-lg">
+                    <p>Once</p>
+                    <p>Weekely</p>
+                    <p>Weekely</p>
+                </div>
+            </div>
+
+            <div class="div4 bg-white py-4 flex justify-between pr-44 rounded-lg">
+                <div class="bold">
+                    <h3 class="text-lg pl-5 font-semibold">Number of Users</h3>
+                </div>
+                <div class="datadiv grid grid-cols-3 gap-[12.2rem] space-x-10 text-lg">
+                    <p>Paid</p>
+                    <p>Free</p>
+                    <p>Free</p>
+                </div>
+            </div>
+
+            <div class="div5 bg-slate-200 py-4 flex justify-between pr-44 rounded-lg">
+                <div class="bold">
+                    <h3 class="text-lg pl-5 font-semibold">Number of Users</h3>
+                </div>
+                <div class="datadiv grid grid-cols-3 gap-[13rem] space-x-11 text-lg">
+                    <p><img src="/Images/rightarrow.svg" alt=""></p>
+                    <p><img src="/Images/rightarrow.svg" alt=""></p>
+                    <p><img src="/Images/rightarrow.svg" alt=""></p>
+                </div>
+            </div>
+
+            <div class="div6 bg-white py-4 flex justify-between pr-44 rounded-lg">
+                <div class="bold">
+                    <h3 class="text-lg pl-5 font-semibold">Number of Users</h3>
+                </div>
+                <div class="datadiv grid grid-cols-3 gap-[12.2rem] space-x-10 text-lg bg-red800">
+                    <p>N/A</p>
+                    <p>N/A</p>
+                    <p>N/A</p>
+                </div>
+            </div>
+
+            <div class="div7 bg-slate-200 py-4 flex justify-between pr-44 rounded-lg">
+                <div class="bold">
+                    <h3 class="text-lg pl-5 font-semibold">Number of Users</h3>
+                </div>
+                <div class="datadiv grid grid-cols-3 gap-[12.2rem] space-x-10 text-lg">
+                    <p>N/A</p>
+                    <p>N/A</p>
+                    <p><img src="/Images/rightarrow.svg" class="pl-2" alt=""></p>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+    <!-- FAQ Section Starts Here  -->
+
+    <section class="FAQ-Section h-[100vh] bg-green-500 flex justify-center">
+
+        <h1 class="text-4xl text-center font-semibold w-72">Frequently Asked Questions</h1>
+        <p>Feeling unsure? These might help!</p>
+
+        <div class="Question-Wrapper h-[70vh] w-[50rem] bg-red-600 flex justify-center ml">
+            <div>Q1</div>
+            <div>Q1</div>
+            <div>Q1</div>
+            <div>Q1</div>
+        </div>
+
+    </section>
+
+
+
+
+
+    <section class="Section-Trail bg-blue-900">
+        <div class="flex  h-[90vh] justify-around">
+            <div class="leftdiv ml-44 pt-48 space-y-11">
+                <div>
+                    <h1 class="text-[2.7rem] text-white font-bold font-sans">Sign up now for your free 30-day trial</h1>
+                </div>
+                <p class="text-xl w-[36rem] text-white font-sans">Start learning more immediatly with access to millions
+                    of content items in your domain of interest</p>
+                <button class="py-3 px-8 border-[2px] border-white font-semibold rounded-lg hover:animate-pulse ">Start
+                    Your Free Trial Now</button>
+            </div>
+            <div class="rightdiv bg-green500 w-[70rem] pt-12">
+                <img src="/Images/heroimg.png" class="ml-20 mt-4  h-[35rem] pt-4 pl-16 text-8xl hover:animate-bounce"
+                    alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+<footer>
+    <section class="section-footer bg-green600 h-[63vh] flex justify-around px-20 py-20 gap-5">
+        <!-- 1st div footer  -->
+        <div class="space-y-6 flex flex-col">
+            <div><img src="/Images/kimo logo.png" class="h-10 mt-3" alt=""></div>
+            <p class="w-96">AI powered platform that gives you access to millions of books, podcasts, articles, webinars
+                and reports.
+                Access your own personalised account on your browser or mobile app to stay ahead.</p>
+            <div class="flex space-x-3">
+                <div>
+                    <ion-icon name="mail-open-outline" class=" font-bold text-2xl"></ion-icon>
+                </div>
+                <div><a href="mailto: abc@example.com">hello@kimo.ai</a></div>
+            </div>
+            <div class="social flex space-x-5 pt-16">
+                <div>
+                    <ion-icon name="logo-facebook" class=" font-bold text-2xl"></ion-icon>
+                </div>
+                <div>
+                    <ion-icon name="logo-linkedin" class=" font-bold text-2xl"></ion-icon>
+                </div>
+                <div>
+                    <ion-icon name="logo-instagram" class=" font-bold text-2xl"></ion-icon>
+                </div>
+                <div>
+                    <ion-icon name="logo-youtube" class=" font-bold text-2xl"></ion-icon>
+                </div>
+            </div>
+        </div>
+        <!-- 2nd div footer  -->
+        <div class="text-lg space-y-4">
+            <h2 class="text-xl pb-4 font-semibold">Home</h2>
+            <ul>Individuals</ul>
+            <ul>Companies</ul>
+            <ul>Pricing</ul>
+        </div>
+        <!-- 3rd div footer  -->
+        <div class="text-lg space-y-4">
+            <h2 class="text-xl pb-4 font-semibold">About Us</h2>
+            <ul>Careers</ul>
+            <ul>Contact Us</ul>
+            <ul>Blog</ul>
+            <ul>Privacy Policy</ul>
+        </div>
+        <!-- 4rth div footer  -->
+        <div class="text-lg space-y-4">
+            <h2 class="text-xl pb-4 font-semibold">Product</h2>
+            <ul>Create Account</ul>
+            <ul>Login</ul>
+            <ul>Terms & Conditions</ul>
+        </div>
+    </section>
+</footer>
+
+</html>

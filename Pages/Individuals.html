@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <script src="index.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>KIMO: Clone Website</title>
+</head>
+
+<body>
+    <!-- 🔓Our Transparrent Navabr Starts Here🔓  -->
+    <nav class="Navbar flex justify-between pt-6">
+
+        <div class="logo text-blue-700 text-xl mx-28 font-bold">
+            <a href="/index.html"><img src="/Images/kimo logo.png" class="h-10 mt-3" alt=""></a>
+        </div>
+        <div class="menu text-lg mr-20">
+            <ul class="flex space-x-7 pt-4 ">
+                <li><a href="/Pages/Individuals.html" class="hover:text-blue-700">Indiidual</a></li>
+                <li><a href="/Pages/company.html" class="hover:text-blue-700">Companies</a></li>
+                <li><a href="/Pages/pricing.html" class="hover:text-blue-700">Pricing</a></li>
+                <li><a href="#" class="hover:text-blue-700">About</a></li>
+                <li><a href="#" class="hover:text-blue-700">Contact</a></li>
+
+            </ul>
+        </div>
+        <div class="buttons space-x-4 mr-24 mt-3">
+            <button class="border-2 border-blue-600 py-[0.60rem] px-4 rounded-xl">Log In</button>
+            <button
+                class="py-3 px-8 rounded-xl bg-blue-700 hover:bg-blue-900 delay-100 ease-in-out text-white font-semibold">Register</button>
+        </div>
+
+
+    </nav>
+    <!-- 🔒Our Navbar Ended Here🔒  -->
+
+    <!-- 🔓Hero Section Start Here🔓  -->
+    <section class="hero h-[100vh] mt-7 bg-gradient-to-r from-purple-50 to-blue-100">
+        <div class="flex  h-[100vh] justify-around">
+            <div class="leftdiv ml-44 pt-48 space-y-11">
+                <div>
+                    <h1 class="text-5xl text-blue-600 font-bold font-sans">Get the best</h1>
+                    <h1 class="text-5xl text-blue-600 font-bold mt-3 font-sans">tech content</h1>
+                </div>
+                <p class="text-xl w-[36rem] font-sans">Cut through the noise to get the latest and best knowledge content in the hottest tech domains</p>
+                <button class="py-3 px-8 border-[2px] border-blue-600 font-semibold rounded-lg herobtn">Start
+                    Your Free Trial Now</button>
+            </div>
+            <div class="rightdiv bg-green500 w-[50rem] pt-12">
+                <img src="/Images/heroimg.png" class="ml-16 mt-4" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- 🔒Our Hero Ended Here🔒  -->
+
+    <!-- 🔓Showing Domain Section Start Here🔓  -->
+    <section class="showing-domains h-[98vh]  bg-gradient-to-r from-blue-50 via-purple-50 to-pink-50">
+        <div class="pt-24">
+            <h2 class="text-center text-5xl font-semibold font-sans">Stay on top of the latest tech
+                domains</h2>
+        </div>
+
+        <!-- First Row of the Domains Div - 01  -->
+        <div class="domains-div-wrapper pt-20 grid grid-flow-col text-lg grid-cols-6 ml-24 pl-32">
+            <div class="pt-5 text-center flex flex-col font-semibold">
+                <ion-icon name="hardware-chip-outline" class="text-center pl-[5.5rem] pb-2 h-11 w-11"></ion-icon>
+                Artificial
+                Intelligence
+            </div>
+            <div class="p-5 text-center bg-blue900 flex flex-col font-semibold">
+                <ion-icon name="people-outline" class="text-center ml-[2.2rem] pb-1 h-12 w-14"></ion-icon> Metaverse
+            </div>
+            <div class="p-5 text-center bg-blue900 flex flex-col font-semibold">
+                <ion-icon name="infinite-outline" class="text-center ml-[2.3rem] pb-2 h-10 w-12"></ion-icon> Blockchain
+            </div>
+            <div class="p-5 text-center bg-blue900 flex flex-col font-semibold">
+                <ion-icon name="extension-puzzle-outline" class="text-center ml-[2.7rem] pb-2 h-11 w-10">
+                </ion-icon> Fintech
+            </div>
+            <div class="p-5 text-center bg-blue900 flex flex-col font-semibold">
+                <ion-icon name="shield-half-outline" class="text-center ml-[2.4rem] pb-2 h-11 w-12"></ion-icon>
+                Cybersecurity
+            </div>
+        </div>
+        <!-- Second Row of the Domains Div - 02  -->
+        <div class="domains-div-wrapper bg-yellow400 pt-10 grid grid-flow-col text-lg grid-cols-6 ml-24 pl-32">
+            <div class="pt-5 text-center bg-blue900 flex flex-col font-semibold">
+                <ion-icon name="desktop-outline" class="text-center ml-[5.4rem] pb-2 h-11 w-12"></ion-icon>
+                Computer Vision
+            </div>
+            <div class="pt-5 text-center bg-blue900 flex flex-col font-semibold">
+                <ion-icon name="globe-outline" class="text-center ml-[5.4rem] pb-2 h-11 w-12"></ion-icon> Internet of
+                Things
+            </div>
+            <div class="pt-5 text-center bg-blue900 flex flex-col font-semibold">
+                <ion-icon name="walk-outline" class="text-center ml-[5.1rem] pb-1 h-12 w-14"></ion-icon>Robotics
+            </div>
+            <div class="pt-5 text-center bg-blue900 flex flex-col font-semibold">
+                <ion-icon name="cloud-done-outline" class="text-center ml-[5.4rem] pb-2 h-11 w-12"></ion-icon>Cloud
+                Computing
+            </div>
+            <div class="pt-5 text-center bg-blue900 flex flex-col font-semibold">
+                <ion-icon name="megaphone-outline" class="text-center ml-[5.4rem] pb-2 h-11 w-11"></ion-icon>Digital
+                Marketing
+            </div>
+        </div>
+    </section>
+    <!-- 🔒Our Showing Domain Section Ended Here🔒  -->
+
+    <!-- 🔓Our Showing Company Section Starts Here 🔓 -->
+    <section class="showing-domains h-[75vh] from-blue-50 via-purple-50 to-pink-50">
+        <div class=" pt-36">
+            <h2 class="text-center text-5xl font-semibold font-sans">Working with world class partnerships</h2>
+        </div>
+
+        <!-- First Row of the Domains Div - 01  -->
+        <div class="domains-div-wrapper pt-12 grid grid-flow-col text-lg grid-cols-8 my-20 mx-20">
+            <div class="pt-5 text-center flex flex-col">
+                <img src="/Images/Company Logo/googlelogo.png" alt="">
+            </div>
+            <div class="pt-5 text-center flex flex-col">
+                <img src="/Images/Company Logo/nvidialogo.png" alt="">
+            </div>
+            <div class="pt-5 text-center flex flex-col">
+                <img src="/Images/Company Logo/samsunglogo.png" alt="">
+            </div>
+            <div class="pt-5 text-center flex flex-col">
+                <img src="/Images/Company Logo/applelogo.png" alt="">
+            </div>
+            <div class="pt-5 text-centerflex flex-col">
+                <img src="/Images/Company Logo/huwawilogo.png" class="" alt="">
+            </div>
+            <div class="pt-5 text-center flex flex-col">
+                <img src="/Images/Company Logo/milogo.png" alt="">
+            </div>
+            <div class="pt-5 text-center flex flex-col">
+                <img src="/Images/Company Logo/microsoftlogo.png" alt="">
+            </div>
+            <div class="pt-5 text-center flex flex-col">
+                <img src="/Images/Company Logo/jiologo.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- 🔒Showing Company Section Ended Here🔒  -->
+
+    <!-- 🔓Our Company Feature/Service Section Starts Here 🔓 -->
+    <section class="three-grid-container h-[130vh]">
+        <div class="heading pt-16 font-semibold">
+            <h1 class="text-6xl text-center">Move from wonder to </h1>
+            <h1 class="text-6xl text-center">knowledge with AI driven tools</h1>
+        </div>
+        <div class="wrapper flex justify-center pt-24 gap-8">
+
+            <!-- this is the 1st div  -->
+            <div
+                class="first-div h-[66vh] w-[48vh] rounded-xl pt-11 px-3 shadow-xl shadow-blue-500 bg-gradient-to-r from-cyan-300 to-blue-400">
+                <div class="icon text-center">
+                    <ion-icon name="locate" class="w-10 h-8 bg-white py-8 px-7 rounded-xl text-blue-700"></ion-icon>
+                </div>
+                <div class="heading text-3xl font-semibold text-center pt-3">
+                    <h2>Personal
+                        Recommendations</h2>
+                </div>
+                <div class="textdiv text-center pt-3 text-lg">
+                    <p>Content recommendations based on your interest and preferences</p>
+                </div>
+                <div class="p-7">
+                    <img src="/Images/firstdivimg.png" class="rounded-xl" alt="">
+                </div>
+            </div>
+            <!-- this is the 2nd div  -->
+            <div
+                class="second-div h-[66vh] w-[48vh] rounded-xl pt-11 px-3 shadow-xl shadow-purple-500  bg-gradient-to-r from-yellow-400 to-purple-500">
+                <div class="icon text-center">
+                    <ion-icon name="search" class="w-10 h-8 bg-white py-8 px-7 rounded-xl text-blue-700"></ion-icon>
+                </div>
+                <div class="heading text-3xl font-semibold text-center pt-5">
+                    <h2>Find Content Fast</h2>
+                </div>
+                <div class="textdiv text-center pt-3 text-lg">
+                    <p>Content recommendations based on your interest and preferences</p>
+                </div>
+                <!-- img div  -->
+                <div class="p-7">
+                    <img src="/Images/seconddivimg.png" class="rounded-xl" alt="">
+                </div>
+            </div>
+            <!-- this is the 3rd div  -->
+            <div
+                class="third-div h-[66vh] w-[48vh] rounded-xl pt-11 px-3 shadow-xl shadow-yellow-200 bg-gradient-to-r from-green-400 to-blue-500">
+                <div class="icon text-center">
+                    <ion-icon name="checkmark-circle" class="w-11 h-8 bg-white py-8 px-7 rounded-xl text-blue-700">
+                    </ion-icon>
+                </div>
+                <div class="heading text-3xl font-semibold text-center pt-3">
+                    <h2>Q&A for Instant Answers</h2>
+                </div>
+                <div class="textdiv text-center pt-3 text-lg">
+                    <p>Content recommendations based on your interest and preferences</p>
+                </div>
+                <div class="p-7">
+                    <img src="/Images/seconddivimg.png" class="rounded-xl" alt="">
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </section>
+    <!-- 🔒Our Company Feature/Service Section Ended Here 🔒-->
+
+    <!-- 🔓Our Google Ai and content Quality Section Starts Here🔓  -->
+    <section class="googleai-section h-[100vh] flex justify-center pt-10 px-10">
+        <div class="googleai-img w-[60rem] pl-44 pt-6">
+            <img src="/Images/googleaiimg.png" class="w-[36rem] h-[38rem] rounded-xl" alt="">
+        </div>
+        <div class="text-div flex justify-center pt-44 w-[50rem]">
+            <div class="text-inner">
+                <h2 class="text-[3.3rem] font-bold w-[32rem] font-sans">High Quality Content Sources</h2>
+
+                <p class="w-[30rem] text-lg pt-2 pb-8">Through our integrations and partnerships, KIMO brings you high
+                    quality knowledge content from high authority sources</p>
+                <span>
+                    <hr>
+                </span>
+            </div>
+        </div>
+    </section>
+    <!-- 🔒Our Google AI and content Quality Section Ended Here🔒  -->
+
+    <!-- 🔓Our Exclusive Webinar Section Starts Here🔓  -->
+    <section class="googleai-section h-[105vh] flex justify-center pt-20 px-32">
+        <div class="text-div flex justify-center pt-32 w-[50rem]">
+            <div class="text-inner bg-red500 pl-12">
+                <h2 class="text-[3rem] font-bold w-[30rem] font-sans">Exclusive Webinars from Industry Experts</h2>
+
+                <p class="w-[30rem] text-lg pt-2 pb-8">Gain knowledge from industry experts in weekly webinar series
+                    exploring the latest tech advancements.</p>
+                <span class="text-2xl">
+                    <hr>
+                </span>
+            </div>
+
+        </div>
+        <div class="googleai-img w-[60rem] pl-32 pt-6">
+            <img src="/Images/webinarimg.png" class="w-[40rem] h-[38rem] rounded-xl" alt="">
+        </div>
+    </section>
+    <!-- 🔒Our Exclusive Webinar Section Ended Here🔒  -->
+
+
+    <!-- 🔓Our Expert Plalist Section Starts Here🔒  -->
+    <section class="googleai-section h-[108vh] flex justify-center pt-20 px-10">
+        <div class="googleai-img w-[60rem] pl-44 pt-6">
+            <img src="/Images/playlistimg.png" class="w-[36rem] h-[38rem] rounded-xl" alt="">
+        </div>
+        <div class="text-div flex justify-center pt-44 w-[50rem]">
+            <div class="text-inner">
+                <h2 class="text-[3.3rem] font-bold w-[32rem] font-sans">Expert Playlists</h2>
+
+                <p class="w-[30rem] text-lg pt-2 pb-8">Top 10 lists from industry experts gives you direct access to
+                    their own favourite content</p>
+                <span>
+                    <hr>
+                </span>
+            </div>
+        </div>
+    </section>
+    <!-- 🔒Our Expert Plalist Section Ended Here🔒  -->
+
+    <!-- 🔓Our Extra Feature Section Starts Here🔓  -->
+    <section class="Extra-Feature-Section h-[80vh] pt-20 px-16">
+
+        <div class="wrapper-div flex justify-center h-[50vh] bg-red600 pl-24 pt-12">
+            <div class="firstdiv px-8 space-y-6 pt-10">
+                <img src="/Images/extrafitimg1.png" class="w-16 h-16" alt="">
+                <h2 class="text-[1.6rem] font-bold">Take Notes</h2>
+                <p>Our notes section allows you to capture your thoughts as you go through your content</p>
+            </div>
+            <div class="seconddiv px-8 space-y-6 pt-10">
+                <img src="/Images/extrafitimg2.png" class="w-16 h-16" alt="">
+                <h2 class="text-[1.6rem] font-bold">Keep Bookmarks</h2>
+                <p>Bookmark your favourite content to easily access it again in the future</p>
+            </div>
+            <div class="thirddiv px-8 space-y-6 pt-10 pl-16">
+                <img src="/Images/extrafitimg3.png" class="w-16 h-16" alt="">
+                <h2 class="text-[1.6rem] font-bold">Domain News</h2>
+                <p>Stay on top of your favourite domains developments with the latest news articles</p>
+            </div>
+        </div>
+    </section>
+    <!-- 🔒Our Extra Feature Section Ended Here🔒  -->
+
+    <!-- 🔓Our Company / Individual Service Section Starts Here🔓  -->
+    <section class="h-[115vh] bg-blue-600 flex justify-center gap-24">
+        <div class="img pl-2 rounded-xl">
+            <img src="/Images/knowledge-section-img.png" class="pr-11 pt-28" alt="">
+        </div>
+
+        <div class="text-button pt-36 pl-10 space-y-12">
+            <h1 class="text-[2.6rem] w-[28rem] font-bold text-white">Your own personal knowledge platform</h1>
+            <div class=" bg-black py-2 flex justify-center w-64 rounded-xl space-x-1 gap-4">
+                <button class="add color-black" id="indivdual">Individual</button>
+                <button class="color-white" id="company">Company</button>
+            </div>
+            <div class="four-para text-white text-lg space-y-3">
+                <div class="flex space-x-2">
+                    <img src="/Images/rightimg.svg">
+                    <p id="para1" class="para">Access to the best best knowledge content</p>
+                </div>
+                <div class="flex space-x-2">
+                    <img src="/Images/rightimg.svg">
+                    <p id="para2" class="para">Live webinars from industry experts</p>
+                </div>
+                <div class="flex space-x-2">
+                    <img src="/Images/rightimg.svg">
+                    <p id="para3" class="para">Personal content recommendations</p>
+                </div>
+                <div class="flex space-x-2">
+                    <img src="/Images/rightimg.svg">
+                    <p id="para4" class="para">Top 10 lists from thought leaders</p>
+                </div>
+            </div>
+            <button class="py-3 px-6 border-[1.5px] border-white rounded-lg font-bold hover:bg-white">Start
+                Your
+                Free Trial</button>
+        </div>
+    </section>
+    <!-- 🔒Our Company / Individual Service Section Inded Here🔒  -->
+
+    <!-- 🔓Our Download apllication Section Starts Here🔓  -->
+    <section class="Donwload-Application h-[105vh] flex justify-center pt-20 pr-20">
+        <div class="download-img w-[60rem] pl-48 pt-2">
+            <img src="/Images/downloadappimg.png" class="w-[34rem] h-[38rem]" alt="">
+        </div>
+        <div class="text-div flex justify-center pt-24 w-[50rem]">
+            <div class="text-inner space-y-4">
+                <h2 class="text-[3.3rem] font-bold w-[32rem] font-sans">Access anytime, anywhere through our website and
+                    app</h2>
+
+                <p class="w-[30rem] text-lg pt-2 pb-8">Your learning goes where you want it, whether at home, at work,
+                    or on the move.</p>
+                <div class="img-download flex space-x-6">
+                    <div><img src="/Images/Download app imag/playstoreimg.png" class="w-28" alt=""></div>
+                    <div><img src="/Images/Download app imag/appstoreimg.png" class="w-28" alt=""></div>
+                    <div><img src="/Images/Download app imag/appgalaryimg.png" class="w-28" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 🔒Our Download apllication Section Inded Here🔒  -->
+
+    <section class="Featured-Section h-[108vh] bg-green400 flex px-20">
+
+        <div class="wrapper-div-featured flex justify-center  px-20 py-3">
+            <!-- Featured div 👉 01  -->
+            <div class="pt-2 space-y-4 bg-red600 px-3">
+                <div>
+                    <h1 class="text-[2.1rem] font-bold">Featured Blog Posts</h1>
+                </div>
+                <div><img src="/Images/Featured Section Images/first-div-ceo-img.jpeg" class="w-[23rem] rounded-xl mt-8"
+                        alt=""></div>
+                <p class="text-xl font-semibold w-96">KIMO featured on Google Podcast: Startup Stories</p>
+                <p class="text-lg w-96">Proud to have our CEO featured in the first episode of Google's new podcast:
+                    Startup
+                    Stories</p>
+                <div class="flex space-x-3">
+                    <div class="flex">
+                        <ion-icon name="calendar-clear-outline" class="px-2 font-bold text-xl"></ion-icon>
+                        <p class="text-sm">April 7, 2021</p>
+                    </div>
+                    <div class="flex">
+                        <ion-icon name="stopwatch-outline" class="px-2 font-bold text-xl"></ion-icon>
+                        <p class="text-sm">2 Mins</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Featured div 👉 02  -->
+            <div class="pt-20 space-y-4 bg-blue600 px-3">
+                <div><img src="/Images/Featured Section Images/second-div-img.png" class="w-96 h-[23rem] rounded-xl"
+                        alt=""></div>
+                <h2 class="text-xl font-semibold w-96">Dutch AI start-up KIMO reinvents online learning</h2>
+                <p class="text-lg w-96">review the status quo on reskilling before introducing an exciting new Dutch
+                    player
+                    on
+                    the block: KIMO</p>
+                <div class="flex">
+                    <div class="flex">
+                        <ion-icon name="calendar-clear-outline" class="px-2 font-bold text-xl"></ion-icon>
+                        <p class="text-sm">April 7, 2021</p>
+                    </div>
+                    <div class="flex">
+                        <ion-icon name="stopwatch-outline" class="px-2 font-bold text-xl"></ion-icon>
+                        <p class="text-sm">8 Mins</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Featured div 👉 03  -->
+            <div class="pt-2 space-y-9 bg-blue600 px-3">
+                <div>
+                    <h1 class="text-[2.1rem] font-bold pt">Recent Blog Posts</h1>
+                </div>
+
+                <div class="space-y-7">
+                    <!-- inner div of div 1/3 -->
+                    <div class="flex justify-between w-96 h-44 gap-2">
+                        <div class="space-y-5">
+                            <h2 class="w-[16rem] font-semibold text-xl">KIMO featured on Google Podcast: Startup Stories
+                            </h2>
+                            <div class="flex text-sm">
+                                <div class="flex">
+                                    <ion-icon name="calendar-clear-outline" class="px-2 font-bold text-xl"></ion-icon>
+                                    <p class="text-sm">April 7, 2021</p>
+                                </div>
+                                <div class="flex">
+                                    <ion-icon name="stopwatch-outline" class="px-2 font-bold text-xl"></ion-icon>
+                                    <p class="text-sm">2 Mins</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div><img src="/Images/Featured Section Images/feature-third-div-first-img.jpeg"
+                                class="w-52 ml-2 rounded-xl" alt=""></div>
+                        <span>
+                            <hr>
+                        </span>
+                    </div>
+                    <!-- inner div of div 1/3 ENDED-->
+                    <hr>
+                    <!-- inner div of div 2/3 -->
+                    <div class="flex justify-between w-96 h-44 gap-2">
+                        <div class="space-y-5">
+                            <h2 class="w-[16rem] font-semibold text-xl">KIMO CEO Named in Top20 EdTech CEOs of 2022</h2>
+                            <div class="flex text-sm">
+                                <div class="flex">
+                                    <ion-icon name="calendar-clear-outline" class="px-2 font-bold text-xl"></ion-icon>
+                                    <p class="text-sm">April 7, 2021</p>
+                                </div>
+                                <div class="flex">
+                                    <ion-icon name="stopwatch-outline" class="px-2 font-bold text-xl"></ion-icon>
+                                    <p class="text-sm">5 Mins</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div><img src="/Images/Featured Section Images/feature-third-div-secondimg.jpeg"
+                                class="w-32 ml-2 rounded-xl" alt=""></div>
+                        <span>
+                            <hr>
+                        </span>
+
+                    </div>
+                    <!-- inner div of div 2/3 ENDED-->
+                    <hr>
+                    <!-- inner div of div 3/3-->
+                    <div class="flex justify-between w-96 h-44 gap-2">
+                        <div class="space-y-5">
+                            <h2 class="w-[15rem] font-semibold text-xl">KIMO raises €3 million EUR</h2>
+                            <div class="flex text-sm">
+                                <div class="flex">
+                                    <ion-icon name="calendar-clear-outline" class="px-2 font-bold text-xl"></ion-icon>
+                                    <p class="text-sm">April 7, 2021</p>
+                                </div>
+                                <div class="flex">
+                                    <ion-icon name="stopwatch-outline" class="px-2 font-bold text-xl"></ion-icon>
+                                    <p class="text-sm">8 Mins</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div><img src="/Images/Featured Section Images/feature-third-div-third-img.jpeg"
+                                class="w-32 ml-2 rounded-xl" alt=""></div>
+                        <hr>
+                    </div>
+
+                    <!-- inner div of div 3/3 ENDED-->
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="Section-Trail bg-blue-900">
+        <div class="flex  h-[90vh] justify-around">
+            <div class="leftdiv ml-44 pt-48 space-y-11">
+                <div>
+                    <h1 class="text-[2.7rem] text-white font-bold font-sans">Sign up now for your free 30-day trial</h1>
+                </div>
+                <p class="text-xl w-[36rem] text-white font-sans">Start learning more immediatly with access to millions
+                    of content items in your domain of interest</p>
+                <button class="py-3 px-8 border-[2px] border-white font-semibold rounded-lg hover:animate-pulse ">Start
+                    Your Free Trial Now</button>
+            </div>
+            <div class="rightdiv bg-green500 w-[70rem] pt-12">
+                <img src="/Images/heroimg.png" class="ml-20 mt-4  h-[35rem] pt-4 pl-16 text-8xl hover:animate-bounce"
+                    alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+<footer>
+    <section class="section-footer bg-green600 h-[63vh] flex justify-around px-20 py-20 gap-5">
+        <!-- 1st div footer  -->
+        <div class="space-y-6 flex flex-col">
+            <div><img src="/Images/kimo logo.png" class="h-10 mt-3" alt=""></div>
+            <p class="w-96">AI powered platform that gives you access to millions of books, podcasts, articles, webinars
+                and reports.
+                Access your own personalised account on your browser or mobile app to stay ahead.</p>
+            <div class="flex space-x-3">
+                <div>
+                    <ion-icon name="mail-open-outline" class=" font-bold text-2xl"></ion-icon>
+                </div>
+                <div><a href="mailto: abc@example.com">hello@kimo.ai</a></div>
+            </div>
+            <div class="social flex space-x-5 pt-16">
+                <div>
+                    <ion-icon name="logo-facebook" class=" font-bold text-2xl"></ion-icon>
+                </div>
+                <div>
+                    <ion-icon name="logo-linkedin" class=" font-bold text-2xl"></ion-icon>
+                </div>
+                <div>
+                    <ion-icon name="logo-instagram" class=" font-bold text-2xl"></ion-icon>
+                </div>
+                <div>
+                    <ion-icon name="logo-youtube" class=" font-bold text-2xl"></ion-icon>
+                </div>
+            </div>
+        </div>
+        <!-- 2nd div footer  -->
+        <div class="text-lg space-y-4">
+            <h2 class="text-xl pb-4 font-semibold">Home</h2>
+            <ul>Individuals</ul>
+            <ul>Companies</ul>
+            <ul>Pricing</ul>
+        </div>
+        <!-- 3rd div footer  -->
+        <div class="text-lg space-y-4">
+            <h2 class="text-xl pb-4 font-semibold">About Us</h2>
+            <ul>Careers</ul>
+            <ul>Contact Us</ul>
+            <ul>Blog</ul>
+            <ul>Privacy Policy</ul>
+        </div>
+        <!-- 4rth div footer  -->
+        <div class="text-lg space-y-4">
+            <h2 class="text-xl pb-4 font-semibold">Product</h2>
+            <ul>Create Account</ul>
+            <ul>Login</ul>
+            <ul>Terms & Conditions</ul>
+        </div>
+    </section>
+</footer>
+
+</html>
