@@ -47,3 +47,5 @@ company.addEventListener('click', () => {
     const para = document.querySelectorAll('.para')
     para.style.transition = 'all 0.7s linear'
 })
+
+
